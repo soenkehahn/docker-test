@@ -1,0 +1,8 @@
+
+sudo: false
+
+language: c
+
+script:
+  - docker pull soenkehahn/docker-test:latest
+  - docker run --rm soenkehahn/docker-test:latest echo hooray
