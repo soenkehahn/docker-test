@@ -1,7 +1,8 @@
 
 sudo: false
 
-language: c
+services:
+  - docker
 
 script:
   - docker pull soenkehahn/docker-test:latest
